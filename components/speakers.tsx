@@ -13,7 +13,7 @@ export default function Speakers({ speakers }: { speakers: Speaker[] }) {
         <div className="mt-8" key={speaker.id}>
           <div className="md:flex">
             <img
-              src={speaker.image.url}
+              src={speaker.image?.url}
               alt={speaker.title}
               className="w-full md:w-56 h-32 md:h-72 object-cover rounded-lg shadow-lg"
             />

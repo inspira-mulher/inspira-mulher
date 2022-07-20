@@ -14,7 +14,7 @@ export default function Supporters({ supporters }: { supporters: Supporter[] }) 
         <div className="flex flex-wrap justify-between flex-1 mt-8 md:mt-0">
           {supporters.map((supporter) => (
             <div className="w-1/2 md:w-1/3 lg:w-1/4 flex items-center justify-center my-6 px-2" key={supporter.id}>
-              <img src={supporter.image.url} alt="" className="w-32" />
+              <img src={supporter.image?.url} alt="" className="w-32" />
             </div>
           ))}
         </div>

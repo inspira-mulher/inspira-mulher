@@ -13,7 +13,7 @@ export default function Sponsors({ sponsors }: { sponsors: Sponsor[] }) {
           {sponsors
             .filter((sponsor) => sponsor.main)
             .map((sponsor) => (
-              <img src={sponsor.image.url} alt="" className="w-72" key={sponsor.id} />
+              <img src={sponsor.image?.url} alt="" className="w-72" key={sponsor.id} />
             ))}
         </div>
         <div className="flex flex-wrap justify-between flex-1 mt-8 md:mt-0 md:ml-4">
@@ -21,7 +21,7 @@ export default function Sponsors({ sponsors }: { sponsors: Sponsor[] }) {
             .filter((sponsor) => !sponsor.main)
             .map((sponsor) => (
               <div className="w-1/2 lg:w-1/3 flex items-center justify-center my-6 px-2" key={sponsor.id}>
-                <img src={sponsor.image.url} alt="" className="w-24" />
+                <img src={sponsor.image?.url} alt="" className="w-24" />
               </div>
             ))}
         </div>

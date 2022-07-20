@@ -61,7 +61,7 @@ export default function Hero({ banners }: { banners: Banner[] }) {
         </div>
         {banners.map((item) => (
           <div className="xl:w-1/2 hidden xl:flex" key={item.id}>
-            <img src={item.image.url} alt="" className="w-full" />
+            <img src={item.image?.url} alt="" className="w-full" />
           </div>
         ))}
       </div>

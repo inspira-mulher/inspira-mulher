@@ -17,7 +17,7 @@ export default function Exhibitors({ exhibitors }: { exhibitors: Exhibitor[] }) 
             className="w-1/3 md:w-1/4 lg:w-1/5 flex items-center justify-center my-6 px-2"
             key={`exhibitor-${item.id}`}
           >
-            <img src={item.image.url} alt="" className="w-24" />
+            <img src={item.image?.url} alt="" className="w-24" />
           </a>
         ))}
       </div>
