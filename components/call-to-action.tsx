@@ -24,7 +24,7 @@ export default function CallToAction() {
               sonha em se tornar um empresário e administrar seu próprio negócio!
             </p>
           </div>
-          <TicketButton />
+          <TicketButton link="https://eventos.mobwe.com.br/e/checkout/ZhuzRpgxIG1M#!" />
         </div>
       </div>
     </section>
