@@ -85,6 +85,7 @@ const Home: NextPage<AppData> = ({ banners, speakers, exhibitors, sponsors, supp
 
       <Head>
         <title>Inspira Mulher - A maior feira de empreendedoras do sul</title>
+        <meta name="facebook-domain-verification" content="y04snrh6qloz3v38wt46w468kywu0u" />
       </Head>
 
       <Hero banners={banners} />

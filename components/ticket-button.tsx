@@ -1,6 +1,7 @@
 import { FaTicketAlt } from 'react-icons/fa'
 
-export default function TicketButton({ link }: { link?: string }) {
+export default function TicketButton() {
+  const link = 'https://eventos.mobwe.com.br/e/checkout/ZhuzRpgxIG1M#!'
   return (
     <div>
       {link ? (
@@ -11,7 +12,7 @@ export default function TicketButton({ link }: { link?: string }) {
           className="mt-6 bg-primary px-8 py-3 text-lg text-white font-medium rounded-xl flex items-center md:inline-flex justify-center"
         >
           <FaTicketAlt />
-          <span className="ml-3">Comprar ingressos</span>
+          <span className="ml-3">Adquira seu passaporte</span>
         </a>
       ) : (
         <div className="mt-6 bg-primary px-8 py-3 text-lg text-white font-medium rounded-xl flex items-center md:inline-flex justify-center opacity-50">

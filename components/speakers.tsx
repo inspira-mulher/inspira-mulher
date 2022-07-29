@@ -20,7 +20,7 @@ export default function Speakers({ speakers }: { speakers: Speaker[] }) {
             <div className="md:ml-8 flex flex-col justify-between max-w-xl">
               <h3 className="tracking-tight font-bold text-secondary text-xl mt-6 md:mt-0">{speaker.title}</h3>
               <p className="mt-2 text-gray-500 font-light pr-4 lg:text-lg">{speaker.description}</p>
-              <TicketButton link="https://eventos.mobwe.com.br/e/checkout/ZhuzRpgxIG1M#!" />
+              <TicketButton />
             </div>
           </div>
         </div>
