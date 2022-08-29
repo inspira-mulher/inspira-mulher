@@ -15,7 +15,7 @@ export default function Speakers({ speakers }: { speakers: Speaker[] }) {
             <img
               src={speaker.image?.url}
               alt={speaker.title}
-              className="w-full md:w-56 h-32 md:h-72 object-cover rounded-lg shadow-lg"
+              className="w-full md:w-56 md:h-72 object-cover rounded-lg shadow-lg"
             />
             <div className="md:ml-8 flex flex-col justify-between max-w-xl">
               <h3 className="tracking-tight font-bold text-secondary text-xl mt-6 md:mt-0">{speaker.title}</h3>
